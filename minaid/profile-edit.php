@@ -27,33 +27,37 @@
 				<form>
 					
 					<div class="input-wrapper">
-						<label class="fullwidth" for="birth">Fødselsdato</label>
+						<label class="fullwidth input-label" for="birth">Fødselsdato</label>
 						<input class="fullwidth input-field" name="birth" type="text">
 					</div>
 
 					<div class="input-wrapper">
-						<label class="fullwidth" for="mobile">Mobilnummer</label>
+						<label class="fullwidth input-label" for="mobile">Mobilnummer</label>
 						<input class="fullwidth input-field" name="mobile" type="tel">
 					</div>
 
 					<div class="input-wrapper">
-						<label class="fullwidth" for="email">E-post</label>
+						<label class="fullwidth input-label" for="email">E-post</label>
 						<input class="fullwidth input-field" name="email" type="text">
 					</div>
 
 					<div class="input-wrapper">
-						<label class="fullwidth" for="password">Nytt passord</label>
+						<label class="fullwidth input-label" for="password">Nytt passord</label>
 						<input class="fullwidth input-field" name="password" type="password">
 					</div>
 
 					<div class="input-wrapper">
-						<label class="fullwidth" for="password">Gjenta passord</label>
+						<label class="fullwidth input-label" for="password">Gjenta passord</label>
 						<input class="fullwidth input-field" name="password" type="password">
 					</div>
+					
+					<div class="fullwidth">
 
-					<button type="submit">Lagre endringer</button>
+						<button class="btn" type="submit">Lagre endringer</button>
 
-					<a href="profile.php">Avbryt</a>
+						<a href="profile.php">Avbryt</a>
+
+					</div>
 
 				</form>
 
